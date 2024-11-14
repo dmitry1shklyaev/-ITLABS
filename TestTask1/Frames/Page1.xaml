@@ -10,7 +10,7 @@
     <Grid MouseDown="Grid_MouseDown">
         <Frame x:Name="frame1" Background="#FF121212"/>
         <Image HorizontalAlignment="Left" VerticalAlignment="Center" Source="/Images/Page1/IWT.png" RenderTransformOrigin="0.522,0.537" Height="944" Width="325"/>
-        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Height="376" RenderTransformOrigin="2,2" Width="924" FontFamily="Montserrat" TextAlignment="Center" Foreground="#FFF3F3F3" FontSize="100" Margin="0,175,0,0" FontStyle="Italic" FontWeight="Bold">
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Height="336" RenderTransformOrigin="2,2" Width="924" FontFamily="Montserrat-" TextAlignment="Center" Foreground="#FFF3F3F3" FontSize="84" Margin="0,244,0,0" FontStyle="Italic" FontWeight="Bold">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -18,7 +18,7 @@
                     <RotateTransform Angle="0"/>
                     <TranslateTransform Y="0"/>
                 </TransformGroup>
-            </TextBlock.RenderTransform><Run Language="ru-ru" Text="инновационные"/><LineBreak/><Run Language="ru-ru" Text="оружейные"/><LineBreak/><Run Language="ru-ru" Text="технологии"/></TextBlock>
+            </TextBlock.RenderTransform><Run Language="ru-ru" Text="ИННОВАЦИОННЫЕ"/><LineBreak/><Run Language="ru-ru" Text="ОРУЖЕЙНЫЕ"/><LineBreak/><Run Language="ru-ru" Text="ТЕХНОЛОГИИ"/></TextBlock>
         <Image HorizontalAlignment="Center" Height="198" Width="792" Source="/Images/Page1/pressToContinue.png" VerticalAlignment="Bottom" Margin="0,0,0,275"/>
         <Image HorizontalAlignment="Center" Height="150" VerticalAlignment="Bottom" Width="150" Source="/Images/Page1/IWT_logo.png" Margin="0,0,250,50"/>
         <Image HorizontalAlignment="Center" Height="119" VerticalAlignment="Bottom" Width="239" Source="/Images/Page1/red_logo.png" Margin="250,0,0,50"/>
