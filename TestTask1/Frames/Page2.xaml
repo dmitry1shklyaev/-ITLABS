@@ -17,14 +17,14 @@
         <Image Source="/Images/Page1/RED_logo.png" Grid.Column="1" Height="180" Width="350" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0"/>
         <Image Grid.Column="0" Source="/Images/Page2/IWT_bg.png" Stretch="Fill"/>
         <Image HorizontalAlignment="Center" VerticalAlignment="Top" Source="/Images/Page1/IWT_logo.png" Height="180" Width="230" Margin="0,10,0,0" Grid.Column="0"/>
-        <Button x:Name="pdfViewIWT" Content="Просмотреть PDF-файл" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="90" Width="250" Margin="0,0,0,75" Background="#00DDDDDD" BorderBrush="#FFFBB911" Foreground="#FFFBB911" FontFamily="Montserrat" BorderThickness="1.5" Click="pdfViewIWT_Click">
+        <Button x:Name="pdfViewIWT" Content="Просмотреть PDF-файл" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="90" Width="250" Margin="0,0,0,75" Background="#00DDDDDD" BorderBrush="#FFFBB911" Foreground="#FFFBB911" FontFamily="Montserrat" BorderThickness="1.5" Click="pdfViewIWT_Click" FontSize="14">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="5"/>
                 </Style>
             </Button.Resources>
         </Button>
-        <Button x:Name="pdfViewRED" Grid.Column="1" Content="Просмотреть PDF-файл" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="90" Width="250" Margin="0,0,0,75" BorderBrush="#FFFBB911" Background="#00DDDDDD" FontFamily="Montserrat" Foreground="#FFFBB911" BorderThickness="1.5" Click="pdfViewRED_Click">
+        <Button x:Name="pdfViewRED" Grid.Column="1" Content="Просмотреть PDF-файл" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="90" Width="250" Margin="0,0,0,75" BorderBrush="#FFFBB911" Background="#00DDDDDD" FontFamily="Montserrat" Foreground="#FFFBB911" BorderThickness="1.5" Click="pdfViewRED_Click" FontSize="14">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="5"/>
