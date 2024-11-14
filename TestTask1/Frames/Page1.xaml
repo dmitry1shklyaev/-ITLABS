@@ -10,7 +10,7 @@
     <Grid MouseDown="Grid_MouseDown">
         <Frame x:Name="frame1" Background="#FF121212"/>
         <Image HorizontalAlignment="Left" VerticalAlignment="Center" Source="/Images/Page1/IWT.png" RenderTransformOrigin="0.522,0.537" Height="944" Width="325"/>
-        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Height="336" RenderTransformOrigin="2,2" Width="924" FontFamily="Montserrat-" TextAlignment="Center" Foreground="#FFF3F3F3" FontSize="84" Margin="0,244,0,0" FontStyle="Italic" FontWeight="Bold">
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Height="336" RenderTransformOrigin="2,2" Width="924" FontFamily="Montserrat-Bold" TextAlignment="Center" Foreground="#FFF3F3F3" FontSize="84" Margin="0,244,0,0" FontStyle="Italic" FontWeight="Bold">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
